@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marvellous Udoko — Developer · Writer · Thinker</title>
+  <meta name="description" content="Personal portfolio of Marvellous Udoko (@marvforge): web development and writing.">
+  <meta name="theme-color" content="#050912">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- A. HEADER -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Marvellous Udoko, back to top">
+        <span class="logo-wrap">
+          <img src="marvforge-logo.png" alt="Marvforge MF logo" class="logo" width="64" height="64">
+          <span class="logo-missing" aria-hidden="true">Logo</span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Marvellous Udoko</span>
+          <span class="brand-handle">@marvforge</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#development">Development</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- B. HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">DEVELOPER · WRITER · THINKER</p>
+          <h1 id="hero-title">I build ideas. I write them. <em>I bring them to life.</em></h1>
+          <p class="lead">I'm a curious mind exploring the interaction of technology, creativity, and human experience. I build digital solutions, write about ideas that matter, and continuously challenge myself to turn imagination into something tangible.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#development">Explore My Work</a>
+            <a class="btn btn-secondary" href="#writing">Read My Writing</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo reveal">
+          <div class="photo-frame">
+            <img src="profile.jpg" alt="Portrait of Marvellous Udoko" id="profileImg">
+            <div class="photo-missing" aria-hidden="true">
+              <span>Profile photo</span>
+              <small>Add your photo as<br>profile.jpg</small>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- C. ABOUT -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">A little about <em>how I think.</em></h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>I'm Marvellous, a student, a self-directed developer, and a writer. I'm happiest when I'm learning something new and can't yet see where it will lead.</p>
+          <p>Technology interests me because it's a way of solving real problems, and I teach myself by building things and working out what went wrong. Writing is the other half of how I think: it makes me slow down, say what I actually mean, and share it clearly.</p>
+          <p>Most of what I do comes from one habit: taking an idea that only exists in my head and turning it into something other people can use, read, or feel.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- D. DEVELOPMENT -->
+    <section class="section" id="development" aria-labelledby="dev-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Selected Development</p>
+          <h2 id="dev-title">Things <em>I've built.</em></h2>
+          <p class="section-sub">Some ideas are better expressed through things we build.</p>
+        </header>
+
+        <div class="cards cards-3">
+          <!-- Project 01 -->
+          <article class="card project reveal">
+            <div class="shot">
+              <img src="asf-fellowship.jpg" alt="Screenshot of the ASF Fellowship Management System">
+              <div class="shot-missing" aria-hidden="true">Screenshot placeholder</div>
+            </div>
+            <div class="card-body">
+              <p class="card-index">Project 01</p>
+              <h3>ASF Fellowship Management System</h3>
+              <p>A digital management platform built to support fellowship administration and organisational processes.</p>
+              <dl class="meta">
+                <dt>Tech stack</dt><dd>HTML, CSS, JavaScript, SQL, Supabase</dd>
+              </dl>
+              <div class="card-links">
+                <a class="link" href="https://asf-uniben-ubth-v1-1.vercel.app" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a>
+                <!-- Replace REPLACE-WITH-REPO-NAME with your repository name -->
+                <a class="link" href="https://github.com/dcm2817-spec/REPLACE-WITH-REPO-NAME" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="card project reveal">
+            <div class="shot">
+              <img src="universe.jpg" alt="Screenshot of the uniVERSE platform">
+              <div class="shot-missing" aria-hidden="true">Screenshot placeholder</div>
+            </div>
+            <div class="card-body">
+              <p class="card-index">Project 02</p>
+              <h3>uniVERSE</h3>
+              <p>A student-focused digital platform concept designed around campus interaction and student communities.</p>
+              <dl class="meta">
+                <dt>Tech stack</dt><dd>HTML, CSS, JavaScript, SQL, Supabase</dd>
+              </dl>
+              <div class="card-links">
+                <a class="link" href="https://project-1-seven-self.vercel.app" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a>
+                <!-- Replace REPLACE-WITH-REPO-NAME with your repository name -->
+                <a class="link" href="https://github.com/dcm2817-spec/REPLACE-WITH-REPO-NAME" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="card project reveal">
+            <div class="shot">
+              <img src="vals-lifestyle.jpg" alt="Screenshot of the Val's Lifestyle website">
+              <div class="shot-missing" aria-hidden="true">Screenshot placeholder</div>
+            </div>
+            <div class="card-body">
+              <p class="card-index">Project 03</p>
+              <h3>Val's Lifestyle</h3>
+              <p>A business website created for brand awareness and easy access to the business owner.</p>
+              <dl class="meta">
+                <dt>Tech stack</dt><dd>HTML, CSS, JavaScript</dd>
+              </dl>
+              <div class="card-links">
+                <a class="link" href="https://vals-lifestyle.vercel.app" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a>
+                <!-- Replace REPLACE-WITH-REPO-NAME with your repository name -->
+                <a class="link" href="https://github.com/dcm2817-spec/REPLACE-WITH-REPO-NAME" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- E. WRITING -->
+    <section class="section" id="writing" aria-labelledby="writing-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Selected Writing</p>
+          <h2 id="writing-title">Thoughts, <em>put into words.</em></h2>
+          <p class="section-sub">Beyond building interfaces and digital experiences, I enjoy exploring ideas through writing.</p>
+        </header>
+
+        <div class="writing-list">
+          <article class="writing reveal">
+            <span class="writing-no" aria-hidden="true">01</span>
+            <div class="writing-main">
+              <p class="tag">Poetry Collection</p>
+              <h3>My First Poems</h3>
+              <p class="includes">Includes “My Hidden Shadow”</p>
+              <p class="excerpt placeholder">[Add an excerpt from the poem here.]</p>
+            </div>
+            <div class="writing-side">
+              <span class="note placeholder">Reading time: [add]</span>
+              <a class="link" href="my-first-poems.pdf" target="_blank" rel="noopener noreferrer">Read More <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="writing reveal">
+            <span class="writing-no" aria-hidden="true">02</span>
+            <div class="writing-main">
+              <p class="tag">Reflective Essay</p>
+              <h3>Before Nineteen</h3>
+              <p class="excerpt placeholder">[Add an excerpt from the essay here.]</p>
+            </div>
+            <div class="writing-side">
+              <span class="note placeholder">Reading time: [add]</span>
+              <a class="link" href="before-nineteen.pdf" target="_blank" rel="noopener noreferrer">Read More <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="writing reveal">
+            <span class="writing-no" aria-hidden="true">03</span>
+            <div class="writing-main">
+              <p class="tag">Article</p>
+              <h3>The Impact of AI on Developing Students</h3>
+              <p class="excerpt">A piece I intend to research and write myself.</p>
+            </div>
+            <div class="writing-side">
+              <span class="status">Coming Soon</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- F. EXPERIENCE -->
+    <section class="section" id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Experience &amp; Leadership</p>
+          <h2 id="exp-title">Where <em>I've contributed.</em></h2>
+        </header>
+
+        <div class="cards cards-2">
+          <article class="card role reveal">
+            <p class="card-index">Leadership</p>
+            <h3>Organising Secretary</h3>
+            <p class="org">Anglican Students' Fellowship, UNIBEN/UBTH</p>
+            <!-- Write your description inside this paragraph -->
+            <p class="role-desc"></p>
+          </article>
+          <article class="card role reveal">
+            <p class="card-index">Leadership</p>
+            <h3>Assistant General Secretary</h3>
+            <p class="org">Anglican Students' Fellowship, UNIBEN/UBTH</p>
+            <!-- Write your description inside this paragraph -->
+            <p class="role-desc"></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- G. CONTACT -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-wrap reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Have an idea <em>worth building?</em></h2>
+        <p class="section-sub">I'm open to meaningful conversations, creative collaborations, and opportunities to build useful things.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:rukomeudoko94@gmail.com">rukomeudoko94@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">GitHub</span>
+            <a href="https://github.com/dcm2817-spec" target="_blank" rel="noopener noreferrer">github.com/dcm2817-spec</a>
+          </li>
+          <li>
+            <span class="label">LinkedIn</span>
+            <!-- Replace REPLACE-WITH-YOUR-USERNAME with your LinkedIn username -->
+            <a href="https://www.linkedin.com/in/REPLACE-WITH-YOUR-USERNAME" target="_blank" rel="noopener noreferrer">linkedin.com/in/REPLACE-WITH-YOUR-USERNAME</a>
+          </li>
+          <li>
+            <span class="label">WhatsApp</span>
+            <a href="https://wa.me/2349157410355" target="_blank" rel="noopener noreferrer">09157410355</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- H. FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-wrap small">
+          <img src="marvforge-logo.png" alt="Marvforge MF logo" class="logo" width="40" height="40">
+          <span class="logo-missing" aria-hidden="true">Logo</span>
+        </span>
+        <div>
+          <p class="brand-name">Marvellous Udoko</p>
+          <p class="brand-handle">@marvforge</p>
+        </div>
+      </div>
+      <p class="closing">Built with curiosity. Driven by ideas.</p>
+      <nav aria-label="Footer">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#development">Development</a></li>
+          <li><a href="#writing">Writing</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <p class="copyright">© <span id="year">2026</span> Marvellous Udoko. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
